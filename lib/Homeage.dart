@@ -28,7 +28,9 @@ class _HomeageState extends State<Homeage> {
       bd.loadDta();
     }
     super.initState();
+    print(bd.Mynotes);
   }
+
   void toogle(index) {
     setState(() {
       bd.Mynotes[index][1] = !bd.Mynotes[index][1];

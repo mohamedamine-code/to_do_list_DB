@@ -7,7 +7,7 @@ final _myBox = Hive.box('todolist');
 
 void creteIntilaData(){
   Mynotes=[
-    'have a work to do',false
+    ['have a work to do',false],
 ];
 }
 
